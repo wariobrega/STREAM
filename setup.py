@@ -3,7 +3,7 @@
 from setuptools import setup
 import sys
 from pathlib import Path
-import stream as st
+# import stream as st
 
 if sys.version_info.major != 3:
     raise RuntimeError('STREAM requires Python 3')
